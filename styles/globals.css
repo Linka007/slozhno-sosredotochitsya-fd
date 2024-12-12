@@ -28,17 +28,29 @@ ul {
   list-style: none;
 }
 
-picture {
-  margin: 0;
-  padding: 0;
-}
-
 button,
 a {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+a {
   text-decoration: none;
 }
+
+img {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+button:focus,
+a:focus {
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
 
